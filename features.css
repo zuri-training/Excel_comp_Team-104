@@ -1,0 +1,579 @@
+body {
+  width: 90%;
+  height: 90%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.firstContainer {
+  /* Rectangle 1 */
+
+  width: 1439px;
+  height: 800px;
+  left: 0px;
+  top: -4px;
+
+  /* Foundation /Primary Blue/Light :hover */
+  background: #e9ecfc;
+}
+h1 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+#element {
+  /* The top Excel and CSV file comparison tool */
+
+  position: absolute;
+  width: 628px;
+  height: 154px;
+  left: 80px;
+  top: 356px;
+
+  /* Header/h1 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  /* or 77px */
+  letter-spacing: -0.02em;
+
+  /* Foundation /Primary Blue/Normal */
+  color: #6e83ec;
+}
+#element2 {
+  /* Our Features */
+
+  position: absolute;
+  width: 628px;
+  height: 77px;
+  left: 394px;
+  top: 864px;
+
+  /* Header/h1 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  /* identical to box height, or 77px */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Foundation /Primary Blue/Normal :hover */
+  color: #6376d4;
+}
+h2 {
+  color: var(--color-h2);
+}
+
+button {
+  /* Primary Button with Icon */
+
+  position: absolute;
+  width: 164px;
+  height: 48px;
+  left: 80px;
+  top: 551px;
+
+  /* Foundation /Primary Blue/Normal */
+  background: #424f8e;
+  border-radius: 8px;
+
+  /* Header/h6 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* Foundation /Greys/Light */
+  color: #fcfcfc;
+}
+/* Ellipse 15 */
+/* Computer-Desktop-PC-PNG-Transparent 1 */
+img {
+  position: absolute;
+  width: 645px;
+  height: 531px;
+  left: 738px;
+  top: 227px;
+}
+#compare {
+  /* Ellipse 20 */
+
+  width: 318px;
+  height: 318px;
+  left: 235px;
+  top: -150px;
+}
+
+#compareText {
+  /* Compare Files */
+
+  position: absolute;
+  width: 628px;
+  height: 58px;
+  left: 80px;
+  top: 180px;
+
+  /* Header/h2 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+#compareText2 {
+  /* Display your files side by side or combine two spreadsheets into one table to show the differences in each cell. */
+
+  position: absolute;
+  width: 519px;
+  height: 108px;
+  left: 134px;
+  top: 250px;
+
+  /* Header/h4 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+#merge {
+  /* Ellipse 21 */
+
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  left: 887px;
+  top: -150px;
+}
+
+#mergeText {
+  /* Merge Files */
+
+  position: absolute;
+  width: 628px;
+  height: 58px;
+  left: 732px;
+  top: 180px;
+
+  /* Header/h2 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+#mergeText2 {
+  /* CompareDiff helps you merge chunks of your files to eliminate duplicates in with just a few easy steps.  */
+
+  position: absolute;
+  width: 519px;
+  height: 108px;
+  left: 786px;
+  top: 250px;
+
+  /* Header/h4 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+#delete {
+  /* Ellipse 22 */
+
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  left: 235px;
+  top: -150px;
+}
+
+#deleteText {
+  /* Delete Duplicates */
+
+  position: absolute;
+  width: 628px;
+  height: 58px;
+  left: 80px;
+  top: 180px;
+
+  /* Header/h2 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+#deleteText2 {
+  /* By choosing the cells you want to erase and deleting them, you can remove differences all at once. */
+
+  position: absolute;
+  width: 519px;
+  height: 108px;
+  left: 134px;
+  top: 250px;
+
+  /* Header/h4 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+#save {
+  /* Ellipse 23 */
+
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  left: 887px;
+  top: -150px;
+}
+
+#saveText {
+  /* Save and Export Files */
+
+  position: absolute;
+  width: 628px;
+  height: 58px;
+  left: 732px;
+  top: 180px;
+
+  /* Header/h2 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+#saveText2 {
+  /* Download and save your computed files as PDF files to your PC. */
+
+  position: absolute;
+  width: 519px;
+  height: 72px;
+  left: 786px;
+  top: 250px;
+
+  /* Header/h4 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+#section1 {
+  /* Rectangle 157 */
+
+  position: absolute;
+  width: 1440px;
+  height: 425px;
+  left: 0px;
+  top: 1173px;
+
+  /* Foundation /Primary Blue/Normal */
+  background: #ff7f81;
+}
+#section2 {
+  /* Rectangle 159 */
+
+  position: absolute;
+  width: 1440px;
+  height: 425px;
+  left: 0px;
+  top: 1910px;
+
+  /* Foundation /Primary Blue/Normal :hover */
+  background: #6376d4;
+}
+#section3 {
+  /* Footer bg */
+
+  position: absolute;
+  width: 1441px;
+  height: 430px;
+  left: -1px;
+  top: 2581px;
+
+  background: #313b6a;
+}
+
+@font-face {
+  font-family: "Romana BT";
+  src: url("logo_font/ROMANAB.TTF");
+}
+
+#logo {
+  /* CompareDiff */
+
+  position: absolute;
+  width: 195px;
+  height: 39px;
+  left: 79px;
+  top: 100px;
+
+  font-family: "Romana BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+#policy {
+  /* Privacy Policy */
+
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 79px;
+  top: 180px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #ffffff;
+}
+
+#services {
+  /* Terms of Service */
+
+  position: absolute;
+  width: 136px;
+  height: 24px;
+  left: 79px;
+  top: 230px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #ffffff;
+}
+
+#docs {
+  /* Documentation */
+
+  position: absolute;
+  width: 129px;
+  height: 24px;
+  left: 79px;
+  top: 280px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #ffffff;
+}
+
+#backToTop {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /* Ellipse 15 */
+
+  position: absolute;
+  left: 1200px;
+  right: 0%;
+  top: 150px;
+  bottom: 0%;
+
+  /* Foundation /Primary Blue/Normal */
+  background: #6e83ec;
+}
+#csv {
+  width: 80px;
+  height: 80px;
+  /* Vector */
+
+  position: absolute;
+  left: 18.69%;
+  right: 76.45%;
+  top: -6%;
+  bottom: 59.5%;
+}
+
+#arrow {
+  width: 60px;
+  height: 60px;
+  /* Vector */
+
+  position: absolute;
+  left: 25.5%;
+  right: 85%;
+  top: -4%;
+  bottom: 46.88%;
+}
+
+.excel {
+  width: 80px;
+  height: 80px;
+}
+
+#excel1 {
+  /* Vector */
+
+  position: absolute;
+  left: 31.26%;
+  right: 63.88%;
+  top: -6%;
+  bottom: 59.47%;
+}
+
+#excel2 {
+  /* Vector */
+
+  position: absolute;
+  left: 64.04%;
+  right: 31.1%;
+  top: -6%;
+  bottom: 59.47%;
+}
+
+#excel3 {
+  /* Vector */
+
+  position: absolute;
+  left: 75.71%;
+  right: 19.44%;
+  top: -6%;
+  bottom: 59.47%;
+}
+
+#arrow2 {
+  width: 70px;
+  height: 70px;
+  /* Vector */
+
+  position: absolute;
+  left: 70%;
+  right: 53.47%;
+  top: -6%;
+  bottom: -4.71%;
+
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#excel4 {
+  /* Vector */
+
+  position: absolute;
+  left: 24.25%;
+  right: 70.9%;
+  top: -10%;
+  bottom: 35.46%;
+}
+
+#excel5 {
+  /* Vector */
+
+  position: absolute;
+  left: 26.61%;
+  right: 68.53%;
+  top: -4%;
+  bottom: 34.92%;
+}
+
+#pdf {
+  width: 90px;
+  height: 90px;
+  /* Vector */
+
+  position: absolute;
+  left: 69.77%;
+  right: 23.89%;
+  top: -6%;
+  bottom: 34.71%;
+}
+
+#arrow3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 1215px;
+  right: 0%;
+  top: 165px;
+  bottom: 0%;
+}
+
+button:hover {
+  background: #6e83ec;
+}
