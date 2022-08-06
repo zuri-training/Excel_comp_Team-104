@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @font-face {
-    font-family: 'Romana BT';
+    font-family: Romana;
     src: url(fonts/ROMANAB.TTF);
 }
 
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: #5869BD;
+    background-color: #313B6A;
     text-align: left;
     overflow-x: hidden;
     z-index: -1;
@@ -41,11 +41,11 @@ header {
 h1 {
     font-family: 'Romana BT';
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 32px;
     line-height: 39px;
     letter-spacing: -0.02em;
-    color: white;
+    color: #EEEEF1;
 }
 
 nav {
@@ -56,15 +56,22 @@ nav {
     font-weight: lighter;
     font-size: 16px;
     line-height: 150%;
-    color: white;
+    color: #EDF0E9;
+    align-items: center;
 }
 
 nav li {
     display: inline-block;
     font-size: 1.06em;
     padding: 1.8em 1em;
-    transition: transform .2s;
     padding: 0.5px 45px;
+    align-items: center;
+}
+
+#logo-halfnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav li:hover,
@@ -75,8 +82,8 @@ button:hover {
 #signupborder {
     border-radius: 8px;
     padding: 10px 13px;
-    color: #050a24;
-    background-color: #E9ECFC;
+    border: 2px solid #E9ECFC;
+    font-weight: 400;
 }
 
 
@@ -138,8 +145,8 @@ h2 {
 
 
 #button-span {
-    background-color: #ECC681;
-    color: rgb(44, 44, 44);
+    background-color: #E9ECFC;
+    color: #313B6A;
     padding: 17px 40px;
     font-size: 16px;
     border: none;
@@ -183,7 +190,7 @@ h2 {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: -0.05em;
-    color: #5869BD;
+    color: #2b2828;
 }
 
 .sixGrayParagraph {
@@ -327,7 +334,7 @@ h2 {
     padding-right: 2em;
     justify-content: center;
     align-items: center;
-    background: #fdf5e2;
+    background: #ffe4e4;
     z-index: -1;
 }
 
@@ -346,7 +353,7 @@ h2 {
     font-size: 48px;
     line-height: 120%;
     letter-spacing: -0.05em;
-    color: #3D6080;
+    color: #454242;
 }
 
 #main-p-fith-container {
@@ -375,8 +382,12 @@ h2 {
 }
 
 #blury {
-    background: rgba(105, 255, 183, 0.3);
-    border: 1px solid rgba(68, 73, 71, 0.5);
+    color: #FF5678;
+}
+
+#main-p-fith-container {
+    min-width: 19em;
+    max-width: 28em;
 }
 
 .funnyBoy-image {
@@ -401,7 +412,6 @@ h2 {
     gap: 6.5em;
     margin-bottom: 3em;
     z-index: -100;
-    margin-top: 1em;
 }
 
 .anotherTreepar span {
@@ -438,17 +448,17 @@ h2 {
 footer {
     padding: 8em 5em;
     padding-right: 2em;
-    background: #424F8E;
+    background: #313B6A;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #EEEEF1;
 }
 
 footer h1 {
-    color: white;
+    color: #EEEEF1;
     margin-bottom: 1em;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 32px;
     line-height: 39px;
 }
