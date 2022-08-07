@@ -1,6 +1,8 @@
+html,
 body {
-  width: 90%;
-  height: 90%;
+  width: 0%;
+  height: 0%;
+  overflow-x: hidden;
 }
 
 * {
@@ -23,7 +25,7 @@ html {
   height: 800px;
   left: 0px;
   top: -4px;
-
+  overflow-x: hidden;
   /* Foundation /Primary Blue/Light :hover */
   background: #e9ecfc;
 }
