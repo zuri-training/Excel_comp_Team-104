@@ -1,7 +1,7 @@
-# Project_Excel_COmp_Tem_104
+# Project_Excel_Comp_Tem_104
 
 ## Github User account
-@aliaformo
+* @aliaformo
 
 ## Contributions:
 
@@ -11,5 +11,5 @@
 * [CSS](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/LandingPage.css)
 
 3. Contact Page Fronted
-[HTML](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/ContactPage.html)
-[CSS](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/contactStyles.css)
+* [HTML](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/ContactPage.html)
+* [CSS](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/contactStyles.css)
