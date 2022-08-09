@@ -27,9 +27,9 @@ With proper research, we’ve been able to identify the pain point of data analy
 * HTML 5. Hyper Text Markup Language. https://html.spec.whatwg.org/multipage/
 * CSS 3. Cascading Style Sheets*. https://www.w3.org/TR/CSS/#css
 ### PROGRAMMING LANGUAGES: 
-JavaScript https://www.ecma-international.org/ 
-Python 3 for codes https://www.python.org/ & 
-PHP 8 for authentication https://www.php.net/
+* JavaScript https://www.ecma-international.org/ 
+* Python 3 for codes https://www.python.org/ & 
+* PHP 8 for authentication https://www.php.net/
 ### FRAMEWORK: 
 React
 ### LIBRARY: 
