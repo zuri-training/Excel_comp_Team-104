@@ -1,5 +1,8 @@
 # Project_Excel_Comp_Tem_104
 
+## Team member
+Alianna Formoso
+
 ## Github User account
 * @aliaformo
 
