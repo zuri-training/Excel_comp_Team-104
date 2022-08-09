@@ -113,9 +113,9 @@
   left: 738px;
   top: 227px;
 }
-#compare {
+#compareFiles {
   /* Ellipse 20 */
-
+  position: absolute;
   width: 318px;
   height: 318px;
   left: 235px;
