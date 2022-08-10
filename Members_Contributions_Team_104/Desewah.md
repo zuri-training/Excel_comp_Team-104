@@ -11,9 +11,11 @@
 
 
 ## Contributions:
-1. **Frontend task**
+1. **Frontend Task**
      - Features Page:
      - [HTML](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/features.html)
      - [Main stylesheet](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/features.css)
-     - [Tablet stylesheet]()
-3. 
+     - [Tablet stylesheet](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/tablet.css)
+2.  **Backend Task**
+     - **Python Duplicates**: *Joint work between Henry and Moyo*
+     - 
