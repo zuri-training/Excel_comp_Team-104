@@ -2,7 +2,7 @@
 
 ## Team member: 
 
-    - **Okeowo Moyofade Adesewa**
+   - **Okeowo Moyofade Adesewa**
 
 
 ## Github User account: 
@@ -11,5 +11,7 @@
 
 
 ## Contributions:
-1. 
-2. 
+1. **Frontend task**
+     - Features Page:
+     - [HTML]()
+3. 
