@@ -14,5 +14,6 @@
 1. **Frontend task**
      - Features Page:
      - [HTML](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/features.html)
-     - [CSS]()
+     - [Main stylesheet](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/features.css)
+     - [Tablet stylesheet]()
 3. 
