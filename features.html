@@ -1,13 +1,15 @@
 <!--features of the compareDiff-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="featuresHtml">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Stylesheet-->
+    <!--Main Stylesheet-->
     <link rel="stylesheet" href="features.css">
+    <!--tablet stylesheet-->
+    <link rel="stylesheet" media="(max-width:700px) and (min-width:451px)" href="tablet.css">
     <!--====fonts===-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,30 +20,31 @@
     <title>Features</title>
 </head>
 
-<body>
+<body id="featuresBody">
     <div class="divc">
         <header>
             <div class="firstContainer" id="features">
                 <div>
-                    <h1 id="element">The top Excel and CSV file comparison tool</h1>
-                    <button id="firstbutton">Get started ></button>
+                    <h1 id="element" class="featuresH1">The top Excel and CSV file comparison tool</h1>
+                    <button id="firstButton">Get started ></button>
                 </div>
-                <img src="images/hero.png">
+                <img src="images/hero.png" class="featuresImg">
             </div>
         </header>
         <!--=========End of Header Section========-->
 
         <section>
-            <h1 id="element2">Our Features</h1>
+            <h1 id="element2" class="featuresH1">Our Features</h1>
         </section>
 
         <section id="section1">
-            <img src="images/Ellipse 22.png" id="compare">
+            <img src="images/Ellipse 22.png" id="compareFiles">
             <div>
                 <a href="">
-                    <h2 id="compareText">Compare Files</h2>
+                    <h2 id="compareText" class="featuresH2">Compare Files</h2>
                 </a>
-                <h4 id="compareText2">Display your files side by side or combine two spreadsheets into one table to
+                <h4 id="compareText2" class="featuresH4">Display your files side by side or combine two spreadsheets
+                    into one table to
                     show the differences
                     in each cell.</h4>
                 <div>
@@ -53,9 +56,10 @@
             <img src="images/Ellipse 22.png" id="merge">
             <div>
                 <a href="">
-                    <h2 id="mergeText">Merge Files</h2>
+                    <h2 id="mergeText" class="featuresH2">Merge Files</h2>
                 </a>
-                <h4 id="mergeText2">CompareDiff helps you merge chunks of your files to eliminate duplicates in with
+                <h4 id="mergeText2" class="featuresH4">CompareDiff helps you merge chunks of your files to eliminate
+                    duplicates in with
                     just a few easy
                     steps.</h4>
                 <div>
@@ -70,7 +74,7 @@
             <img src="images/Ellipse 22.png" id="delete">
             <div>
                 <a href="">
-                    <h2 id="deleteText">Delete Duplicates</h2>
+                    <h2 id="deleteText" class="featuresH2">Delete Duplicates</h2>
                 </a>
                 <h4 id="deleteText2">By choosing the cells you want to erase and deleting them, you can remove
                     differences all at once.
@@ -83,9 +87,10 @@
             <img src="images/Ellipse 22.png" id="save">
             <div>
                 <a href="">
-                    <h2 id="saveText">Save and Export Files</h2>
+                    <h2 id="saveText" class="featuresH2">Save and Export Files</h2>
                 </a>
-                <h4 id="saveText2">Download and save your computed files as PDF files to your PC.</h4>
+                <h4 id="saveText2" class="featuresH4">Download and save your computed files as PDF files to your PC.
+                </h4>
                 <div>
                     <img src="icons/pdf.svg" id="pdf">
                 </div>
