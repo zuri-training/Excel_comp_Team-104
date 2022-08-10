@@ -1,9 +1,9 @@
 # Project_Excel_Comp_Tem_104
 
-## Team member
+## Team member: **Okeowo Moyofade Adesewa**
 
 
-## Github User account
+## Github User account: [@Desewah]()
 
 
 ## Contributions:
