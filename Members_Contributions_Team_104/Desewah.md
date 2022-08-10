@@ -18,4 +18,4 @@
      - [Tablet stylesheet](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/tablet.css)
 2.  **Backend Task**
      - **Python Duplicates**: *Joint work between Henry and Moyo*
-     - 
+     - [Compare Files](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/compare_file.py)
