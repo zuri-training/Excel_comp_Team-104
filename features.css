@@ -1,6 +1,7 @@
-body {
-  width: 90%;
-  height: 90%;
+#featuresBody {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -12,7 +13,7 @@ body {
   list-style: none;
   box-sizing: border-box;
 }
-html {
+#featuresHtml {
   scroll-behavior: smooth;
 }
 
@@ -27,7 +28,7 @@ html {
   /* Foundation /Primary Blue/Light :hover */
   background: #e9ecfc;
 }
-h1 {
+.featuresH1 {
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 700;
@@ -75,11 +76,11 @@ h1 {
   /* Foundation /Primary Blue/Normal :hover */
   color: #6376d4;
 }
-h2 {
+.featuresH2 {
   color: var(--color-h2);
 }
 
-button {
+#firstButton {
   /* Primary Button with Icon */
 
   position: absolute;
@@ -105,16 +106,16 @@ button {
 }
 /* Ellipse 15 */
 /* Computer-Desktop-PC-PNG-Transparent 1 */
-img {
+.featuresImg {
   position: absolute;
-  width: 645px;
-  height: 531px;
+  width: 550px;
+  height: 470px;
   left: 738px;
   top: 227px;
 }
-#compare {
+#compareFiles {
   /* Ellipse 20 */
-
+  position: absolute;
   width: 318px;
   height: 318px;
   left: 235px;
@@ -574,6 +575,6 @@ img {
   bottom: 0%;
 }
 
-button:hover {
+#firstButton:hover {
   background: #6e83ec;
 }
