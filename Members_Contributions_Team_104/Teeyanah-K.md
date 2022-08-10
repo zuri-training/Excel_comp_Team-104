@@ -1,6 +1,6 @@
 # Project_Excel_Comp_Tem_104
 
-## Team member
+## Team member - Assistant Team Lead
 ## Github User account: Teeyanah_K
 ## Contributions:
 
