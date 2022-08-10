@@ -13,5 +13,6 @@
 ## Contributions:
 1. **Frontend task**
      - Features Page:
-     - [HTML]()
+     - [HTML](https://github.com/zuri-training/Excel_comp_Team-104/blob/main/features.html)
+     - [CSS]()
 3. 
