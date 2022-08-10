@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: FiraSansBold;
+    src: url(FiraSans-Bold.ttf);
+}
+@font-face {
+    font-family: FirasansMedium;
+    src: url(FiraSans-Medium.ttf);
+}
+@font-face {
+    font-family: FiraSansRegular;
+    src: url(FiraSans-Regular.ttf);
+}
+@font-face {
+    font-family: Romana;
+    src: url(ROMANAB.TTF);
+}
+#errorbody{
+    background-color: #E5E5E5;
+}
+.errorlogo{
+    font-family: Romana;
+    font-family: Romana BT;
+    font-size: 32px;
+    font-weight: 400;
+}
+.errortable1{
+    width: 90%;
+    margin: auto; 
+    padding-bottom: 40px;  
+    padding-top: 47px;
+}
+#errortd, .errorlogo{
+    color: #5869BD;
+}
+
+.errorp1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: FirasansMedium;
+    color:#6376D4;
+    padding-top: 46px;
+}
+#errorimg{
+    display: flex;
+    margin: auto;
+}
+.errorp2{
+    padding-top: 119.5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: FirasansMedium;
+    color: #6376D4;
+    padding-bottom: 24px;
+}
+#errorbtn{
+    font-family: FirasansMedium;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FCFCFC;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border-style: none;
+    display: flex;
+    margin: auto;
+    background-color: #6E83EC;
+}
+.errorbtn{
+    padding-bottom: 163px;
+}
+#errorbtn:hover{
+    background-color: #6376D4;
+}
+#errortd{
+    font-size: 16px;
+    font-family: FiraSansRegular;
+}
+
