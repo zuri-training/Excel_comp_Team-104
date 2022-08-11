@@ -1,0 +1,18 @@
+Both Client and server folders should have node modules locally installed
+
+Client Folder
+======
+Install the following dependencies in your client folder
+axios
+
+
+Server Folder
+======
+Install the following dependencies in your server folder
+body-parser
+child_process
+cors
+express
+multer
+mysql
+nodemon

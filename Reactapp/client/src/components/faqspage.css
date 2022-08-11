@@ -1,0 +1,283 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/romana-bt');
+@import url(//db.onlinewebfonts.com/c/a928f24b58b82e8ea551d1d7599d2324?family=Romana+BT);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    min-height: 100%;
+}
+
+#faq-body {
+    background-color: #FFFFFF;
+    text-align: left;
+    overflow-x: hidden;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: 'Romana BT';
+    src: url(./../../public/fonts/ROMANAB.TTF);
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url(./../../public/fonts/FiraSans-Regular.ttf);
+}
+
+/* Header */
+
+#faq-header {
+    padding: 2em;
+    padding-bottom: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 112px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #313B6A;
+}
+
+.faq-logo {
+    font-family: 'Romana BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.faq-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.faq-nav li {
+    display: inline-block;
+    font-size: 1.06em;
+    padding: 1.8em 1em;
+    transition: transform .2s;
+    padding: 0.5px 45px;
+}
+
+.faq-nav li:hover,
+button:hover {
+    cursor: pointer;
+}
+
+
+/* #tiny-li-nav {
+    padding-right: 10em;
+}*/
+
+#faq-signupborder {
+    border: 1.5px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background: #E9ECFC;
+    color: #5362B1;
+}
+
+
+/* First section */
+
+.faq-first-section {
+    margin:0px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    min-height: 688px;
+    background: #313B6A;
+}
+
+.faq-subhead {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    /* identical to box height, or 77px */
+    letter-spacing: -0.02em;
+    /* Foundation /Grays/Dark :hover */
+    color: #F1F3FD;
+}
+
+.faq-below {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    text-align: center;
+    letter-spacing: -0.02em;
+    /* Foundation /Grays/Dark :hover */
+    color: #F1F3FD;
+}
+
+.faq-below a {
+    color: #FED284;
+    /*text-decoration: none;*/
+}
+
+.faq-main{
+    margin:0px;
+    width:100%;
+}
+
+#faq-main-img {
+    width: 400px;
+    height: 249px;
+    left: 520px;
+    top: 270px;
+}
+
+.faq-rectangle-151 {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    /* Foundation /Grays/Light */
+    background: #EEEEF1;
+    margin-top: -34%;
+    border-radius: 8px;
+}
+
+.faq-rect-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 27px;
+}
+
+
+/*========second section========*/
+
+.faq-second-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.faq-second-items {
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+
+.faq-second-items .faq-h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #3E4357;
+    margin-top: 48px;
+}
+
+.faq-second-items p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    text-align: center;
+    letter-spacing: -0.02em;
+    /* Foundation /Grays/Light */
+    color: #3E4357;
+}
+
+.faq-second-items a {
+    color: #FED284;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.faq-rect-items .faq-bolder-p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+    text-align: center;
+    letter-spacing: -0.02em;
+    /* Foundation /Grays/Dark */
+    color: #FF7F81;
+    margin-bottom: 8px;
+}
+
+.faq-rect-items .faq-lesser-p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    text-align: center;
+    /* Foundation /Grays/Dark :hover */
+    color: #252834;
+}
+
+.faq-rect-items div {
+    margin-bottom: 32px;
+}
+
+
+/*==============================Footer ================*/
+
+#faq-footer {
+    padding: 131.5px 54.5px;
+    background: #AFAEAE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#faq-footer .faq-h1 {
+    color: #222020;
+    font-family: 'Romana BT';
+    margin-bottom: 1em;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#faq-footer p {
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #454242;
+    line-height: 150%;
+}
+
+.faq-footer-image {
+    width: 100px;
+    height: 100px;
+}
+
+#faq-footer img {
+    height: 100%;
+    width: 100%;
+}
+
+#faq-arrow-button {
+    width: 100%;
+    height: 100%;
+    background: none;
+    /* border-radius: 50%; */
+    outline: none;
+    border: none;
+}

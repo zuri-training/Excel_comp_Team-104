@@ -1,0 +1,310 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/romana-bt');
+@import url(//db.onlinewebfonts.com/c/a928f24b58b82e8ea551d1d7599d2324?family=Romana+BT);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');*/
+
+@font-face {
+    font-family: 'Romana BT';
+    src: url(../../public/fonts/ROMANAB.TTF);
+}
+
+@font-face {
+    font-family: 'FiraSans Regular';
+    src: url(../../public/fonts/FiraSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+}
+
+.contact-body {
+    display:flex; flex-direction:column;
+    align-items:center; justify-content:flex-start;
+    background-color: white;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+#contact-header {
+    margin: 2em 3em;
+    margin-bottom: 0em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactH1 {
+    font-family: 'Romana BT';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #5869BD;
+}
+
+.contact-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5869BD;
+    text-align: center;
+    align-items: center;
+}
+
+.contactnav-li {
+    display: inline-block;
+    font-size: 1.06em;
+    padding: 1.8em 1em;
+    padding: 0.5px 45px;
+    text-align: center;
+    align-items: center;
+}
+
+#contactlogo-halfnav {
+    display: flex;
+    align-items: center;
+   
+}
+
+#siguplink {
+    border-radius: 8px;
+    padding: 10px 13px;
+    color: #0f1535;
+    background-color: #E9ECFC;
+    font-size: 500;
+}
+
+.contactnav-li:hover,
+#contactArrow-button:hover {
+    cursor: pointer;
+}
+
+
+.contact-ul .line {
+    display: block;
+    min-height: 7.5px;
+    max-height: 7.5px;
+    width: 110%;
+    background-color: rgb(73, 71, 71);
+    margin-top: 0.2em;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#contact-a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+main {
+    margin: 0.5em 5em;
+}
+
+/*========================= first-container-girl =================================*/
+
+.contact-first-container-girl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2D9F9;
+    gap: 1em;
+    min-width: 1200px;
+    max-width: 1300px;
+    max-height: 20em;
+    min-height: 20em;
+    margin: 0px auto;
+    z-index: -100;
+}
+
+.contact-first-container-text {
+    justify-content: center;
+    padding: 4.5em 0;
+    min-width: 660px;
+    max-width: 760px;
+}
+
+.contact-first-container-girl-h2 {
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-size: 48px;
+}
+
+
+.contact-first-container-girl-p {
+    padding-left: 4em;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.contact-girl-image {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 300px 0px 0px 300px;
+    min-width: 590px;
+    max-width: 720px;
+}
+
+#girl-image-img {
+    width: 42em;
+    max-height: 20em;
+    min-height: 20em;
+    border: 8px solid white;
+    border-radius: 300px 0px 0px 300px;
+}
+
+
+/*===========================Star div===========================*/
+
+.contact-star-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 30;
+    margin-top: -2.6em;
+}
+
+
+/*=======================   second-container-SalesSupport ===========================*/
+
+.contact-second-container-SalesSupport {
+    display: flex;
+    margin: 1em 5em;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6em;
+    position: relative;
+    z-index: 700;
+    margin-top: -5.3em;
+    margin-bottom: 7em;
+}
+
+#contact-second-container-SalesSupport-h4,
+#contact-second-containerSalesSupport-h4,
+.contact-text-location-h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    
+}
+
+.contact-second-container-SalesSupport-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.Sales,
+.Support {
+    border: 1px solid #D9D9D9;
+    padding: 22px;
+    min-width: 420px;
+    min-height: 215px;
+    max-height: 215px;
+    background-color: white;
+}
+
+.Sales-h4,
+.Support-h4 {
+    margin-bottom: 0.4em;
+}
+
+
+
+/*===============================H3==========================*/
+
+#contact-h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    margin: 1em auto;
+}
+
+/*==========================   third-container-location  ===============================*/
+
+.contact-third-container-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 528px;
+    max-height: 528px;
+    margin: 2em 0em;
+    margin-bottom: 9em;
+}
+
+
+.google-location {
+    min-width: 845px;
+    max-width: 1000px;
+}
+
+.contact-text-location {
+    border: 1px solid #D7D7D7;
+    box-shadow: 0px 4px 4px rgba(215, 215, 215, 0.25);
+    padding: 55px;
+    min-width: 460px;
+    max-width: 500px;
+}
+
+
+.contact-text-location-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    padding-bottom: 2em;
+}
+
+
+/*============================== Contact Footer ==================================*/
+
+#contactFooter {
+    width:100%;
+    padding: 8em 5em;
+    padding-right: 2em;
+    background: #313B6A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#contactFooter-h1 {
+    color: white;
+    margin-bottom: 1em;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#contactFooter-p {
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 150%;
+}
+
+
+#contactArrow-button {
+    border: none;
+    background-color: inherit;
+    min-height: 2px;
+    max-height: 2px;
+    border-radius: 10px;
+
+}
