@@ -1,0 +1,37 @@
+Create a project folder
+In that project folder create two folders: client and server
+
+Both Client and server folders should have node modules locally installed
+To do this:
+
+==============================================================================================================================================
+
+In the client folder run this in the terminal
+npx create-react-app .
+then npm install the dependencies listed below
+
+Client Folder
+======
+Install the following dependencies in your client folder
+axios
+
+now copy and paste the the content of the pulled client folder to your newly created client folder and replace all files
+
+==============================================================================================================================================
+
+In the server folder run this in the terminal
+npm init
+then npm install the dependencies listed below
+
+Server Folder
+======
+Install the following dependencies in your server folder using:- npm <dependency_name>
+body-parser
+child_process
+cors
+express
+multer
+mysql
+nodemon
+
+now copy and paste the the content of the pulled server folder to your newly created server folder and replace all files

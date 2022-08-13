@@ -1,0 +1,188 @@
+
+@font-face {
+    font-family: 'Romana BT';
+    src: url(../../public/fonts/ROMANAB.TTF);
+}
+
+@font-face {
+    font-family: 'FiraSans Regular';
+    src: url(../../public/fonts/FiraSans-Regular.ttf);
+}
+
+#dashboardcont{
+    min-width: 100%; min-height:100%;
+    min-width: 100%; min-height:100%;
+    display:flex; flex-direction:column;
+    justify-content:space-around; align-self:center;
+    padding:0;
+}
+
+#uploadscont{
+    display:flex; align-items:center;
+    flex-direction:row; justify-content:flex-start;
+    width:100%; min-height:180px; max-height:180px;
+    background-color:#f5f5f5;
+}
+
+#analyzecont{
+    display:flex; flex-direction:row;
+    justify-content:space-around; align-items:center;
+}
+
+#analyzebtn{
+    font-family:'FiraSans Regular';
+    border:0; font-size:18px; font-weight:bold;
+    min-height:50px; max-height:50px;
+    color: white;
+    width:auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #5869BD;
+}
+
+.content-area {
+    display:flex; align-items:center;
+    flex-direction:column; justify-content:space-around;
+    min-width:100%; min-height:430px;
+    max-width:100%; max-height:430px;
+    text-align: center;
+}
+
+.drag-area {
+    min-height: 350px;
+    min-width: 700px;
+    max-height: 350px;
+    max-width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1F3FD;
+    border-radius: 15px;
+}
+
+.drag-area .active {
+    border: 2px solid #fff;
+}
+
+.drag-area .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 140px;
+    min-height: 140px;
+    max-width: 140px;
+    max-height: 140px;
+    color: rgb(3, 3, 3);
+    border-radius: 50%;
+    padding: 40px;
+    background-color: #E9ECFC;
+}
+
+.drag-area .icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.drag-area header {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+}
+
+.drag-area p {
+    color: rgb(5, 5, 5, .3);
+    margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgb(15, 15, 15);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mt-3{
+    color: #5869BD;
+    font-family:'FiraSans Regular';
+    font-weight:bold; font-size:18px;
+}
+
+.drag-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+button.open-file {
+    font-family:'FiraSans Regular';
+    border:0; font-size:18px; font-weight:bold;
+    min-height:50px; max-height:50px;
+    color: #243583;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgba(220, 226, 255, 0.8);
+}
+
+#drag-icon{
+    min-width:50px; min-height:50px;
+    max-width:50px; max-height:50px;
+}
+
+.file {
+    width: 50%;
+    height: 45px;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, .1);
+}
+
+.file:hover {
+    cursor: pointer;
+}
+
+.miniXLcont{
+    position:relative;
+    width:120px; height:170px;
+    display:flex; flex-direction:column;
+    justify-content:space-around; align-items:center;
+}
+
+
+.miniXL{
+    position:relative;
+    min-width:100px; min-height:120px;
+    max-width:100px; max-height:120px;
+    background-color:rgb(240, 240, 240);
+    display:flex; flex-direction:row;
+    justify-content:space-around; align-items:center;
+    box-shadow:5px 5px 2px grey;
+    border:1px green solid;
+}
+
+.miniXLImg{
+    min-width:50px; min-height:auto;
+    max-width:50px; max-height:auto;
+}
+
+.miniXLname{
+    width:auto; min-height:40px; max-height:40px;
+    font-size:14px; font-family:'FiraSans Regular';
+    color:grey;
+}
+
+.deleteminiXLImg{
+    position:absolute;
+    min-width:60px; min-height:60px;
+    max-width:60px; max-height:60px;
+    border-radius:50%;
+}

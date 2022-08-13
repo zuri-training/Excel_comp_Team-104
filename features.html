@@ -1,13 +1,15 @@
 <!--features of the compareDiff-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="featuresHtml">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Stylesheet-->
+    <!--Main Stylesheet-->
     <link rel="stylesheet" href="features.css">
+    <!--tablet stylesheet-->
+    <link rel="stylesheet" media="(max-width:700px) and (min-width:451px)" href="tablet.css">
     <!--====fonts===-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,92 +20,108 @@
     <title>Features</title>
 </head>
 
-<body>
+<body id="featuresBody">
+
     <div class="divc">
         <header>
-            <div class="firstContainer" id="features">
+            <div class="featuresFirstContainer" id="features">
                 <div>
-                    <h1 id="element">The top Excel and CSV file comparison tool</h1>
-                    <button id="firstbutton">Get started ></button>
+                    <nav class="fetures_nav">
+                        <ul>
+                            <li><a href="#" id="features_logo" class="features_dashboard">CompareDiff</a></li>
+                            <li><a href="#" id="features_features" class="features_dashboard">Features</a></li>
+                            <l1><a href="#" id="features_about" class="features_dashboard">About</a></l1>
+                            <li><a href="#" id="features_contact" class="features_dashboard">Contact</a></li>
+                            <li><a href="#" id="features_login" class="features_dashboard">Log in</a></li>
+                            <li><a href="#" id="features_signup" class="features_dashboard">Sign Up</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <img src="images/hero.png">
+                <div>
+                    <h1 id="element" class="featuresH1">The top Excel and CSV file comparison tool</h1>
+                    <button id="featuresFirstButton">Get started ></button>
+                </div>
+                <img src="images/hero.png" class="featuresImg">
             </div>
         </header>
         <!--=========End of Header Section========-->
 
         <section>
-            <h1 id="element2">Our Features</h1>
+            <h1 id="element2" class="featuresH1">Our Features</h1>
         </section>
 
-        <section id="section1">
-            <img src="images/Ellipse 22.png" id="compare">
+        <section id="features_section1">
+            <img src="images/Ellipse 22.png" id="compareFiles">
             <div>
                 <a href="">
-                    <h2 id="compareText">Compare Files</h2>
+                    <h2 id="compareText" class="featuresH2">Compare Files</h2>
                 </a>
-                <h4 id="compareText2">Display your files side by side or combine two spreadsheets into one table to
+                <h4 id="compareText2" class="featuresH4">Display your files side by side or combine two spreadsheets
+                    into one table to
                     show the differences
                     in each cell.</h4>
                 <div>
-                    <img src="icons/csv1.svg" id="csv">
-                    <img src="icons/arrow-right-arrow-left-solid.svg" id="arrow">
-                    <img src="icons/excel.svg" class="excel" id="excel1">
+                    <img src="icons/csv1.svg" id="features_csv">
+                    <img src="icons/arrow-right-arrow-left-solid.svg" id="features_arrow">
+                    <img src="icons/excel.svg" class="features_excel" id="features_excel1">
                 </div>
             </div>
             <img src="images/Ellipse 22.png" id="merge">
             <div>
                 <a href="">
-                    <h2 id="mergeText">Merge Files</h2>
+                    <h2 id="mergeText" class="featuresH2">Merge Files</h2>
                 </a>
-                <h4 id="mergeText2">CompareDiff helps you merge chunks of your files to eliminate duplicates in with
+                <h4 id="mergeText2" class="featuresH4">CompareDiff helps you merge chunks of your files to eliminate
+                    duplicates in with
                     just a few easy
                     steps.</h4>
                 <div>
-                    <img src="icons/excel.svg" id="excel2" class="excel">
-                    <img src="icons/arrows-left-right-to-line-solid.svg" id="arrow2">
-                    <img src="icons/excel.svg" id="excel3" class="excel">
+                    <img src="icons/excel.svg" id="features_excel2" class="features_excel">
+                    <img src="icons/arrows-left-right-to-line-solid.svg" id="features_arrow2">
+                    <img src="icons/excel.svg" id="features_excel3" class="features_excel">
                 </div>
             </div>
         </section>
 
-        <section id="section2">
+        <section id="features_section2">
             <img src="images/Ellipse 22.png" id="delete">
             <div>
                 <a href="">
-                    <h2 id="deleteText">Delete Duplicates</h2>
+                    <h2 id="deleteText" class="featuresH2">Delete Duplicates</h2>
                 </a>
                 <h4 id="deleteText2">By choosing the cells you want to erase and deleting them, you can remove
                     differences all at once.
                 </h4>
                 <div>
-                    <img src="icons/excel.svg" class="excel" id="excel4">
-                    <img src="icons/excel.svg" class="excel" id="excel5">
+                    <img src="icons/excel.svg" class="features_excel" id="features_excel4">
+                    <img src="icons/excel.svg" class="features_excel" id="features_excel5">
                 </div>
             </div>
             <img src="images/Ellipse 22.png" id="save">
             <div>
                 <a href="">
-                    <h2 id="saveText">Save and Export Files</h2>
+                    <h2 id="saveText" class="featuresH2">Save and Export Files</h2>
                 </a>
-                <h4 id="saveText2">Download and save your computed files as PDF files to your PC.</h4>
+                <h4 id="saveText2" class="featuresH4">Download and save your computed files as PDF files to your PC.
+                </h4>
                 <div>
-                    <img src="icons/pdf.svg" id="pdf">
+                    <img src="icons/pdf.svg" id="features_pdf">
                 </div>
             </div>
         </section>
 
-        <section id="section3">
+        <section id="features_section3">
             <footer>
                 <ul>
-                    <li><a href="#features" id="logo">CompareDiff</a></li>
-                    <li><a href="" id="policy">Privacy Policy</a></li>
-                    <li><a href="" id="services">Terms of Services</a></li>
-                    <li><a href="" id="docs">Documentation</a></li>
+                    <li><a href="#features" id="features_logo1">CompareDiff</a></li>
+                    <li><a href="#" id="features_policy">Privacy Policy</a></li>
+                    <li><a href="#" id="features_services">Terms of Services</a></li>
+                    <li><a href="#" id="features_docs">Documentation</a></li>
                     <li><a href="#features">
-                            <div id="backToTop"></div>
+                            <div id="featuresBackToTop"></div>
                         </a></li>
                     <li><a href="#features">
-                            <img src="icons/arrow-up-long-solid.svg" id="arrow3">
+                            <img src="icons/arrow-up-long-solid.svg" id="features_arrow3">
                         </a></li>
                 </ul>
 

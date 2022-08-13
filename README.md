@@ -15,19 +15,27 @@ With proper research, we’ve been able to identify the pain point of data analy
 ### TOOLS:
 - Figma 
 - Figjam
-- Github 
+- Github repository
 - Google Meet 
 - Slack Huddle 
 - Google Docs and 
 - Excel
+- Visual Studio Code version 1.68
+- Git 2.36.1
 
+### LANGUAGES:
+- [HTML 5. Hyper Text Markup Language](https://html.spec.whatwg.org/multipage/)
+- [CSS 3. Cascading Style Sheets*](https://www.w3.org/TR/CSS/#css)
 ### PROGRAMMING LANGUAGES: 
-Python for codes & PHP for authentication
+- [JavaScript](https://www.ecma-international.org/)
+- [Python 3 for codes](https://www.python.org/) & 
+- [PHP 8 for authentication](https://www.php.net/)
 ### FRAMEWORK: 
-React
+- React
 ### LIBRARY: 
 Pandas and Numpy
-
+### DATABASE
+- MySQL
 ### MAIN FEATURES:
 * Compare two or more Excel Files and check for errors.
 * Highlight the differences in all compared Excel files.

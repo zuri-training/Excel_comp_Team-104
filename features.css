@@ -1,6 +1,7 @@
-body {
-  width: 90%;
-  height: 90%;
+#featuresBody {
+  width: 1440;
+  height: 3011;
+  overflow-x: hidden;
 }
 
 * {
@@ -12,11 +13,11 @@ body {
   list-style: none;
   box-sizing: border-box;
 }
-html {
+#featuresHtml {
   scroll-behavior: smooth;
 }
 
-.firstContainer {
+.featuresFirstContainer {
   /* Rectangle 1 */
 
   width: 1439px;
@@ -27,7 +28,7 @@ html {
   /* Foundation /Primary Blue/Light :hover */
   background: #e9ecfc;
 }
-h1 {
+.featuresH1 {
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 700;
@@ -75,11 +76,11 @@ h1 {
   /* Foundation /Primary Blue/Normal :hover */
   color: #6376d4;
 }
-h2 {
+.featuresH2 {
   color: var(--color-h2);
 }
 
-button {
+#featuresFirstButton {
   /* Primary Button with Icon */
 
   position: absolute;
@@ -105,16 +106,16 @@ button {
 }
 /* Ellipse 15 */
 /* Computer-Desktop-PC-PNG-Transparent 1 */
-img {
+.featuresImg {
   position: absolute;
-  width: 645px;
-  height: 531px;
+  width: 550px;
+  height: 470px;
   left: 738px;
   top: 227px;
 }
-#compare {
+#compareFiles {
   /* Ellipse 20 */
-
+  position: absolute;
   width: 318px;
   height: 318px;
   left: 235px;
@@ -324,7 +325,7 @@ img {
 
   color: #ffffff;
 }
-#section1 {
+#features_section1 {
   /* Rectangle 157 */
 
   position: absolute;
@@ -336,7 +337,7 @@ img {
   /* Foundation /Primary Blue/Normal */
   background: #ff7f81;
 }
-#section2 {
+#features_section2 {
   /* Rectangle 159 */
 
   position: absolute;
@@ -348,7 +349,7 @@ img {
   /* Foundation /Primary Blue/Normal :hover */
   background: #6376d4;
 }
-#section3 {
+#features_section3 {
   /* Footer bg */
 
   position: absolute;
@@ -365,7 +366,7 @@ img {
   src: url("logo_font/ROMANAB.TTF");
 }
 
-#logo {
+#features_logo1 {
   /* CompareDiff */
 
   position: absolute;
@@ -384,7 +385,7 @@ img {
 
   color: #ffffff;
 }
-#policy {
+#features_policy {
   /* Privacy Policy */
 
   position: absolute;
@@ -404,7 +405,7 @@ img {
   color: #ffffff;
 }
 
-#services {
+#features_services {
   /* Terms of Service */
 
   position: absolute;
@@ -424,7 +425,7 @@ img {
   color: #ffffff;
 }
 
-#docs {
+#features_docs {
   /* Documentation */
 
   position: absolute;
@@ -444,22 +445,22 @@ img {
   color: #ffffff;
 }
 
-#backToTop {
+#featuresBackToTop {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   /* Ellipse 15 */
 
   position: absolute;
-  left: 1200px;
+  left: 1260px;
   right: 0%;
-  top: 150px;
+  top: 120px;
   bottom: 0%;
 
   /* Foundation /Primary Blue/Normal */
   background: #6e83ec;
 }
-#csv {
+#features_csv {
   width: 80px;
   height: 80px;
   /* Vector */
@@ -471,7 +472,7 @@ img {
   bottom: 59.5%;
 }
 
-#arrow {
+#features_arrow {
   width: 60px;
   height: 60px;
   /* Vector */
@@ -483,12 +484,12 @@ img {
   bottom: 46.88%;
 }
 
-.excel {
+.features_excel {
   width: 80px;
   height: 80px;
 }
 
-#excel1 {
+#features_excel1 {
   /* Vector */
 
   position: absolute;
@@ -498,7 +499,7 @@ img {
   bottom: 59.47%;
 }
 
-#excel2 {
+#features_excel2 {
   /* Vector */
 
   position: absolute;
@@ -508,7 +509,7 @@ img {
   bottom: 59.47%;
 }
 
-#excel3 {
+#features_excel3 {
   /* Vector */
 
   position: absolute;
@@ -518,7 +519,7 @@ img {
   bottom: 59.47%;
 }
 
-#arrow2 {
+#features_arrow2 {
   width: 70px;
   height: 70px;
   /* Vector */
@@ -532,7 +533,7 @@ img {
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-#excel4 {
+#features_excel4 {
   /* Vector */
 
   position: absolute;
@@ -542,7 +543,7 @@ img {
   bottom: 35.46%;
 }
 
-#excel5 {
+#features_excel5 {
   /* Vector */
 
   position: absolute;
@@ -552,7 +553,7 @@ img {
   bottom: 34.92%;
 }
 
-#pdf {
+#features_pdf {
   width: 90px;
   height: 90px;
   /* Vector */
@@ -564,16 +565,158 @@ img {
   bottom: 34.71%;
 }
 
-#arrow3 {
+#features_arrow3 {
   width: 30px;
   height: 30px;
   position: absolute;
-  left: 1215px;
+  left: 1275px;
   right: 0%;
-  top: 165px;
+  top: 134px;
   bottom: 0%;
 }
 
-button:hover {
+#featuresFirstButton:hover {
   background: #6e83ec;
+}
+
+#features_logo {
+  /* CompareDiff */
+
+  position: absolute;
+  width: 195px;
+  height: 39px;
+  left: 80px;
+  top: 28px;
+
+  font-family: "Romana BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+
+  color: #313b6a;
+}
+
+#features_features {
+  /* Features */
+
+  position: absolute;
+  width: 85px;
+  height: 24px;
+  left: 307px;
+  top: 37px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #313b6a;
+}
+
+#features_about {
+  /* About */
+
+  position: absolute;
+  width: 85px;
+  height: 24px;
+  left: 463px;
+  top: 37px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #313b6a;
+}
+
+#features_contact {
+  /* Contact */
+
+  position: absolute;
+  width: 84px;
+  height: 24px;
+  left: 628px;
+  top: 37px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #313b6a;
+}
+
+#features_login {
+  /* Log in */
+
+  position: absolute;
+  width: 79px;
+  height: 24px;
+  left: 1167px;
+  top: 36px;
+
+  /* Body/b3 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #313b6a;
+}
+
+#features_signup {
+  /* Button */
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  left: 1250px;
+  top: 36px;
+
+  /* Header/h6 */
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #313b6a;
+}
+
+#features_features:hover {
+  color: #6e83ec;
+}
+#features_features:active {
+  color: #6e83ec;
+}
+#features_about:hover {
+  color: #6e83ec;
+}
+
+#features_contact:hover {
+  color: #6e83ec;
+}
+#features_logo:hover {
+  color: #6e83ec;
+}
+#features_login:hover {
+  color: #6e83ec;
+}
+#features_signup:hover {
+  color: #6e83ec;
 }
