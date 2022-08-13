@@ -20,7 +20,8 @@
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
-    min-height: 100%;
+    /* min-height: 100%; */
+    /* min-height distorts the onboarding  */
 }
 
 body {
@@ -165,7 +166,7 @@ h2 {
     position: relative;
     top: 0em;
     right: 0px;
-    z-index: 700;
+    z-index: 200;
 }
 
 
@@ -393,7 +394,7 @@ h2 {
 .funnyBoy-image {
     position: relative;
     top: -8em;
-    z-index: 700;
+    z-index: 200;
 }
 
 .funnyBoy-image img {
@@ -478,4 +479,183 @@ footer p {
     height: 2px;
     border-radius: 10px;
 
+}
+
+
+/*==============================Overlay ================*/
+
+.onboarding-container,
+.onboarding-container * {
+    box-sizing: border-box;
+}
+
+
+.onboarding-container .top-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+
+}
+
+.onboarding-container .logo {
+    font-family: 'Romana BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    color: #6376D4;
+}
+
+.onboarding-container .skip-btn {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FF7F81;
+}
+
+.onboarding-container .hello {
+    height: 58px;
+    width: 58px;
+}
+
+.onboarding-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 100ms ease;
+    z-index: 210;
+}
+
+.onboarding-overlay.active {
+    opacity: 1;
+}
+
+.onboarding-container {
+    z-index: 300;
+    position: fixed;
+    font-family: 'Fira sans', sans-serif;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    box-shadow: 0px 4px 7px rgba(193, 193, 193, 0.25);
+    transition: all 100ms ease;
+
+}
+
+.onboarding-container.active {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+
+
+.onboarding-container .content {
+    background: #fff;
+    max-width: 954px;
+    padding: 8px;
+    overflow: hidden;
+    border-radius: 8px;
+    color: #525974;
+
+}
+
+.onboarding-container .bottom-divs {
+    display: flex;
+    width: 300%;
+    gap: 260px;
+    padding-top: 72px;
+    padding-bottom: 60px;
+    padding-left: 252px;
+    transition: all 400ms ease;
+    color: #525974;
+
+}
+
+.onboarding-container .bottom-div {
+    text-align: center;
+    padding: 57px 76px;
+    background: #E9ECFC;
+}
+
+
+.onboarding-container .welcome {
+    display: flex;
+    gap: 8px;
+}
+
+.onboarding-container .main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    margin-top: 96px;
+    max-width: 623px;
+    margin-left: 153.5px;
+}
+
+.onboarding-container h2 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.onboarding-container h5 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 0;
+}
+
+.onboarding-container h4 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 16px 0;
+}
+
+.onboarding-container p {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+
+.next-btn {
+    z-index: 300;
+    position: fixed;
+    /* font-family: 'Fira sans', sans-serif; */
+    left: 50%;
+    top: 50%;
+    transform: translate(2200%, -50%);
+    opacity: 0;
+    transition: all 100ms ease;
+
+}
+
+.next-btn.active {
+        transform: translate(4500%, 10%);
+    opacity: 1;
 }
