@@ -132,6 +132,9 @@
     font-family:FiraSansRegular;
 }
 
+#loginbutton:hover{
+    cursor: pointer;
+}
 #first-p{
     min-width:388px;
     min-height:37px;
@@ -192,6 +195,9 @@
     font-family:FiraSansRegular;
 }
  
+#signup{
+    cursor: pointer;
+}
 #logina{
     color:#5869BD;
     font-family:FiraSansRegular;
