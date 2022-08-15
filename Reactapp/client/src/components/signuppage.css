@@ -155,6 +155,9 @@
     font-family: FiraSansRegular;
 }
 
+#signupbutton:hover{
+    cursor: pointer;
+}
 #sign-in{
     min-width:188px;
     min-height:21px;
