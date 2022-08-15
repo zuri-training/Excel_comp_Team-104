@@ -58,6 +58,7 @@
 .bottom-div:hover{
     background-color:#5869BD;
     color:white;
+    cursor: pointer;
 }
 
 #OBRBtn{
@@ -66,4 +67,8 @@
     min-width:50px; min-height:50px;
     max-width:50px; max-height:50px;
     border-radius:50%;
+}
+
+#OBRBtn:hover{
+    cursor: pointer;
 }
