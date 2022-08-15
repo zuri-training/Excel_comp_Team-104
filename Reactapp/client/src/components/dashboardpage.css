@@ -129,6 +129,9 @@ button.open-file {
     border-radius: 30px;
     background-color: rgba(220, 226, 255, 0.8);
 }
+button.open-file:hover{
+   cursor: pointer;
+}
 
 #drag-icon{
     min-width:50px; min-height:50px;
