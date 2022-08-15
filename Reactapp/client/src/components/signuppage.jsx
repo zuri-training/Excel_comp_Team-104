@@ -15,7 +15,7 @@ class SignUpPage extends Component{
         let email  = document.getElementById('signupemail').value;
 
         if(pass1 === pass2){
-            Axios.post('http://localhost:3001/signup', {
+            Axios.post('https://excel-comp-team104.netlify.app/signup', {
                 name: name,
                 pass: pass1,
                 tel: tel,

@@ -11,7 +11,7 @@ class LoginPage extends Component{
         let user = document.getElementById('loginusername').value;
         let pass = document.getElementById('loginpassword').value;
 
-        Axios.post('http://localhost:3001/login', {
+        Axios.post('https://excel-comp-team104.netlify.app/login', {
             name: user,
             pass: pass,
         }).then((response)=>{
