@@ -1,21 +1,22 @@
-Create a project folder
-In that project folder create two folders: client and server
+Clone Repo and open preferred IDE
+
+In Reactapp file there are two folders
 
 Both Client and server folders should have node modules locally installed
 To do this:
 
 ==============================================================================================================================================
+npm install the dependencies listed below
 
 In the client folder run this in the terminal
-npx create-react-app .
-then npm install the dependencies listed below
+
 
 Client Folder
 ======
 Install the following dependencies in your client folder
 axios
 
-now copy and paste the the content of the pulled client folder to your newly created client folder and replace all files
+now run npm start
 
 ==============================================================================================================================================
 
@@ -34,4 +35,4 @@ multer
 mysql
 nodemon
 
-now copy and paste the the content of the pulled server folder to your newly created server folder and replace all files
+At this point your XAMPP or other alternatives should be running to enable you setup your database.
