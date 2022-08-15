@@ -19,3 +19,5 @@ https://github.com/zuri-training/Excel_comp_Team-104/issues/5#issue-1330718141
 - Manage announcements
 
 - Manage developers tasks and ensure that all pages are done as requested
+
+- Write the readme files
