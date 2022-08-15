@@ -479,5 +479,8 @@ h2 {
     background-color: inherit;
     height: 2px;
     border-radius: 10px;
+}
+
+#landingArrow-button:hover{
     cursor: pointer;
 }
