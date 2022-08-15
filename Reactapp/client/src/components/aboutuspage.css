@@ -177,6 +177,7 @@
 }
 .aboutlast button:hover{
     background-color: #6376D4;
+    cursor: pointer;
 }
 
 .aboutlogo, #abouth4{
