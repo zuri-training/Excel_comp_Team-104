@@ -281,3 +281,7 @@ button:hover {
     outline: none;
     border: none;
 }
+
+#faq-arrow-button:hover{
+    cursor: pointer;
+}
