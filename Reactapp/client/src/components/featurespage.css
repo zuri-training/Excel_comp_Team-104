@@ -578,4 +578,5 @@
 
 #firstButton:hover {
   background: #6e83ec;
+  cursor: pointer;
 }
