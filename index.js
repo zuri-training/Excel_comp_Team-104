@@ -92,6 +92,6 @@ app.post('/login', (req, res) => {
     })
 });
 
-app.listen(db.port, (req, res) => {
+app.listen('5432', (req, res) => {
     console.log('Server running...');
 });
