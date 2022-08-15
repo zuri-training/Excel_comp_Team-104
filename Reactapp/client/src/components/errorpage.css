@@ -79,6 +79,7 @@
 }
 #errorbtn:hover{
     background-color: #6376D4;
+    cursor: pointer;
 }
 #errortd{
     font-size: 16px;
