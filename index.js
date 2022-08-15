@@ -62,7 +62,7 @@ app.post('/signup', (req, res) => {
     let email = req.body.email;
     let tel = req.body.tel;
 
-    db.query('insert into userdata (username, userpass, email, tel) values (?, ?, ?, ?)', [name, pass, email, tel], (err, data) => {
+    db.query('INSERT INTO userdata(username, userpass, email, tel) values (?, ?, ?, ?)', [name, pass, email, tel], (err, data) => {
         if (err) {
             console.log('done');
             res.send(name);
