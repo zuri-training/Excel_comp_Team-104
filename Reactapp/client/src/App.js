@@ -91,7 +91,7 @@ class App extends Component{
             }
             form.append('fileArr', arr);
             console.log(arr);
-            Axios.post('http://localhost:3001', form, { }).then((response)=>{
+            Axios.post('https://excel-comp-team104.herokuapp.com/', form, { }).then((response)=>{
                 console.log(response.data);
                 console.log('done');
             });
